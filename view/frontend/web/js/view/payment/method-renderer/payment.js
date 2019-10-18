@@ -90,7 +90,6 @@ define(
                     ) {
                         return quote.paymentMethod().method;
                     }
-                    self.ppp.deselectPaymentMethod();
                     return null;
                 });
                 return this;
